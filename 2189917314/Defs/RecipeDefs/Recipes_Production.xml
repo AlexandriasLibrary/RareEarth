@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+    <defName>ExtractSomeMineralsFromDebris</defName>
+    <label>smelt minerals from debris</label>
+    <description>Use heat and strong electromagnets to separate as many useful rare earth minerals from useless rock debris as possible.</description>
+    <jobString>Smelting minerals from rock debris.</jobString>
+    <workAmount>350</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>12</Steel>
+	<Gold>1</Gold>
+	<Silver>2</Silver>
+	<Plasteel>3</Plasteel>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+		<li>ChunkGranite</li>
+		<li>ChunkSandstone</li>
+		<li>ChunkSlate</li>
+		<li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+	<skillRequirements>
+		<Crafting>5</Crafting>
+	</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ExtractMineralsFromDebris</defName>
+    <label>smelt minerals from debris</label>
+    <description>Use heat and strong electromagnets to separate as many useful minerals from useless rock debris as possible.</description>
+    <jobString>Smelting minerals from rock debris.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>35</Steel>
+	<Gold>3</Gold>
+	<Silver>5</Silver>
+	<Plasteel>7</Plasteel>
+	<Jade>2</Jade>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+		<li>ChunkGranite</li>
+		<li>ChunkSandstone</li>
+		<li>ChunkSlate</li>
+		<li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+	<skillRequirements>
+		<Crafting>5</Crafting>
+	</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ExtractALotofMineralsFromDebris</defName>
+    <label>smelt minerals from debris</label>
+    <description>Use heat and strong electromagnets to separate as many useful minerals from useless rock debris as possible.</description>
+    <jobString>Smelting minerals from rock debris.</jobString>
+    <workAmount>750</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>75</Steel>
+	<Gold>7</Gold>
+	<Silver>12</Silver>
+	<Plasteel>10</Plasteel>
+	<Jade>5</Jade>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+		<li>ChunkGranite</li>
+		<li>ChunkSandstone</li>
+		<li>ChunkSlate</li>
+		<li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+	<skillRequirements>
+		<Crafting>5</Crafting>
+	</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ExtractATonofMineralsFromDebris</defName>
+    <label>smelt minerals from debris</label>
+    <description>Use heat and strong electromagnets to separate tons of useful rare earth minerals from useless rock debris and ore.</description>
+    <jobString>Smelting minerals from rock debris.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>100</Steel>
+	<Gold>12</Gold>
+	<Silver>20</Silver>
+	<Plasteel>15</Plasteel>
+	<Jade>12</Jade>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+		<li>ChunkGranite</li>
+		<li>ChunkSandstone</li>
+		<li>ChunkSlate</li>
+		<li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+	<skillRequirements>
+		<Crafting>10</Crafting>
+	</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+	<RecipeDef>
+		<defName>InduceRadiation</defName>
+		<label>Induce Radioactivity</label>
+		<description>Induce radioactivity using controlled alpha-particles to create an industrial amount of uranium.</description>
+		<jobString>Producing uranium from rock debris.</jobString>
+		<workAmount>750</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkLimestone</li>
+						<li>ChunkGranite</li>
+						<li>ChunkSandstone</li>
+						<li>ChunkSlate</li>
+						<li>ChunkMarble</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Uranium>50</Uranium>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkLimestone</li>
+				<li>ChunkGranite</li>
+				<li>ChunkSandstone</li>
+				<li>ChunkSlate</li>
+				<li>ChunkMarble</li>
+			</thingDefs>
+		</fixedIngredientFilter>	
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+  <RecipeDef>
+    <defName>ExperimentWithAlphaParticles</defName>
+    <label>experiment with alpha decay</label>
+    <description>Experiment with alpha-decay to produce a small amount of uranium within a high-energy field.</description>
+    <jobString>Producing uranium from rock debris.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+			<li>ChunkGranite</li>
+			<li>ChunkSandstone</li>
+			<li>ChunkSlate</li>
+			<li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Uranium>20</Uranium>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+		<li>ChunkGranite</li>
+		<li>ChunkSandstone</li>
+		<li>ChunkSlate</li>
+		<li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>	
+	<skillRequirements>
+		<Crafting>8</Crafting>
+	</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+</Defs>
